@@ -89,7 +89,7 @@ print("Hello, World!")
  ************************** End of Case 2    ********/
 
 
-/******************************* Case 3  */
+/******************************* Case 3  
  
  // Resolving Strong References with weak reference
  
@@ -128,10 +128,10 @@ print("Hello, World!")
  john = nil
  number73 = nil
  
- /*************************** End of Case 2    ********/
+ *************************** End of Case 2    ********/
 
-/*
-/******************************* Case 3
+
+/******************************* Case 3 */
  
  // Resolving Strong References with Unowned reference
  
@@ -165,7 +165,7 @@ print("Hello, World!")
  john = Customer (name: "John Appleseed")
  john!.card = CreditCard(number:1234_5678_9012_3456, customer:john!)
  john = nil
- ************************** End of Case 3    ********/
+ /************************** End of Case 3    ********/
 
 /******************************* Case 4  */
 
@@ -206,7 +206,7 @@ country = Country(name: "Canada", capitalName: "Ottawa")
 country = nil
 
 /************************** End of Case 4    ********/
-
+/*
 /******************* Start of Case 5: Strong Ref. for Closure  */
 /*
  class HTMLElement {
