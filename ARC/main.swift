@@ -89,7 +89,7 @@ print("Hello, World!")
  ************************** End of Case 2    ********/
 
 
-/******************************* Case 3  
+/******************************* Case 3
  
  // Resolving Strong References with weak reference
  
@@ -130,7 +130,7 @@ print("Hello, World!")
  
  *************************** End of Case 2    ********/
 
-
+/*
 /******************************* Case 3 */
  
  // Resolving Strong References with Unowned reference
@@ -205,10 +205,11 @@ country = Country(name: "Canada", capitalName: "Ottawa")
 
 country = nil
 
+*/
 /************************** End of Case 4    ********/
-/*
+
 /******************* Start of Case 5: Strong Ref. for Closure  */
-/*
+
  class HTMLElement {
  let name:String
  let text:String?
@@ -224,17 +225,17 @@ country = nil
  self.text = text
  }
  deinit {
- println(" \(name) is being deinitialized ")
+ print(" \(name) is being deinitialized ")
  }
  }
  
  var paragraph: HTMLElement? = HTMLElement(name:"p", text: "hello, world")
  
- println( paragraph!.asHTML())
+ print( paragraph!.asHTML())
  
  paragraph = nil
  
- */
+ 
 /*
  class HTMLElement {
  let name:String
@@ -450,4 +451,4 @@ if let beginsWithThe = john.residence?.address?.buildingIdentifier()?.hasPrefix(
 }
 /******************** Four Clasee Optional Chaining *************/
 
- */
+ 
